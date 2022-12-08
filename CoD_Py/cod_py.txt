@@ -1,0 +1,7 @@
+s = float(input("Digite seu salário: "))
+if s > 1250.00:
+  x = s + s/10
+  print("Seu salário somado com 10% é: ",x)
+else:
+    y = s + s/15
+    print("Seu salário somado com 15% é: ",y)
